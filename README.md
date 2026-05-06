@@ -14,6 +14,7 @@ Welcome to follow and star!
   - [Overview of RLHF](#overview-of-rlhf)
     - [Detailed Explanation](#detailed-explanation)
   - [Papers](#papers)
+    - [2026](#2026)
     - [2025](#2025)
     - [2024](#2024)
     - [2023](#2023)
@@ -81,7 +82,578 @@ format:
   - code
   - experiment environments and datasets
 ```
+### 2026
 
+- [Why DPO is a Misspecified Estimator and How to Fix It](https://openreview.net/pdf?id=btEiAfnLsX)
+  - Aditya Gopalan, Sayak Ray Chowdhury, Debangshu Banerjee
+  - ICLR 2026
+  - Keyword: DPO, RLHF, Preference, Alignment, LLM
+
+- [What's In My Human Feedback? Learning Interpretable Descriptions of Preference Data](https://openreview.net/pdf?id=sC6A1bFDUt)
+  - Rajiv Movva, Smitha Milli, Sewon Min, Emma Pierson
+  - ICLR 2026
+  - Keyword: RLHF, Preference, Alignment, Safety, Human Feedback
+
+- [Multiplayer Nash Preference Optimization](https://openreview.net/pdf?id=x7aLhLMVn1)
+  - Fang Wu, Xu Huang, Weihao Xuan, Zhiwei Zhang, Yijia Xiao, Guancheng Wan, Xiaomin Li, Bing Hu, Peng Xia, Jure Leskovec, Yejin Choi
+  - ICLR 2026
+  - Keyword: PPO, RLHF, Preference, Alignment, LLM
+
+- [Token-Importance Guided Direct Preference Optimization](https://openreview.net/pdf?id=cMEnMVvMw9)
+  - Ning Yang, Hai Lin, Yibo Liu, Baoliang Tian, Guoqing Liu, Haijun Zhang
+  - ICLR 2026
+  - Keyword: DPO, RLHF, Preference, Alignment, LLM
+
+- [SafeDPO: A Simple Approach to Direct Preference Optimization with Enhanced Safety](https://openreview.net/pdf?id=PJdw4VBsXD)
+  - Geon-Hyeong Kim, Yu Jin Kim, Byoungjip Kim, Honglak Lee, Kyunghoon Bae, Youngsoo Jang, Moontae Lee
+  - ICLR 2026
+  - Keyword: DPO, RLHF, Reward Model, Preference, Alignment
+
+- [BaseReward: A Strong Baseline for Multimodal Reward Model](https://openreview.net/pdf?id=EuN5iszF0a)
+  - YiFan Zhang, Haihua Yang, Huanyu Zhang, Yang Shi, Zezhou Chen, Haochen Tian, Chaoyou Fu, Kai WU, Bo Cui, Xu Wang, Jianfei Pan, Haotian Wang, Zhang Zhang, Liang Wang
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, Multimodal, LLM
+
+- [The Alignment Auditor: A Bayesian Framework for Verifying and Refining LLM Objectives](https://openreview.net/pdf?id=CH7TfRLqSF)
+  - Matthieu Bou, Nyal Patel, Arjun Jagota, Satyapriya Krishna, Sonali Parbhoo
+  - ICLR 2026
+  - Keyword: RLHF, Preference, Alignment, Safety, LLM
+
+- [Uni-DPO: A Unified Paradigm for Dynamic Preference Optimization of LLMs](https://openreview.net/pdf?id=G7DBGlgjjp)
+  - Shangpin Peng, Weinong Wang, Zhuotao Tian, Senqiao Yang, Xing W, Haotian Xu, Chengquan Zhang, Takashi Isobe, Baotian Hu, Min Zhang
+  - ICLR 2026
+  - Keyword: DPO, RLHF, Preference, Multimodal, LLM
+
+- [Learning to summarize user information for personalized reinforcement learning from human feedback](https://openreview.net/pdf?id=Ar078WR3um)
+  - HyunJi Nam, Yanming Wan, Mickel Liu, Peter F. Ahnn, Jianxun Lian, Natasha Jaques
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, Alignment, LLM
+
+- [Token-Guard: Towards Token-Level Hallucination Control via Self-Checking Decoding](https://openreview.net/pdf?id=5fCDEz43ya)
+  - Yifan Zhu, Huiqiang Rong, Haoran Luo
+  - ICLR 2026
+  - Keyword: RLHF, LLM, Token-level, Reinforcement Learning, Human Feedback
+
+- [Pretrain Value, Not Reward: Decoupled Value Policy Optimization](https://openreview.net/pdf?id=qirGds1BmK)
+  - Chenghua Huang, Lu Wang, Fangkai Yang, Pu Zhao, Qingwei Lin, Dongmei Zhang, Saravan Rajmohan
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, LLM, Optimization
+
+- [P$^2$-DPO: Grounding Hallucination in Perceptual Processing via Calibration Direct Preference Optimization](https://openreview.net/pdf?id=ekOwxTn65Y)
+  - ruipeng zhang, Zhihao Li, Haozhang Yuan, C.L.Philip Chen, Tong Zhang
+  - ICLR 2026
+  - Keyword: DPO, Preference, Optimization, Human Feedback
+
+- [Unifying Stable Optimization and Reference Regularization in RLHF](https://openreview.net/pdf?id=QpqBqCTtW4)
+  - Li He, Qiang Qu, He Zhao, Stephen Wan, Dadong Wang, Lina Yao, Tongliang Liu
+  - ICLR 2026
+  - Keyword: RLHF, Preference, Alignment, Optimization, Reinforcement Learning
+
+- [Text2Grad: Reinforcement Learning from Natural Language Feedback](https://openreview.net/pdf?id=SIE9fNq8lk)
+  - Hanyang Wang, Lu Wang, Chaoyun Zhang, Tianjun Mao, Si Qin, Qingwei Lin, Saravan Rajmohan, Dongmei Zhang
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Alignment
+
+- [ARMOR: Aligning Secure and Safe Large Language  Models via Meticulous Reasoning](https://openreview.net/pdf?id=Wx5xG7FPXK)
+  - Zhengyue Zhao, YingziYingzi Ma, Somesh Jha, Marco Pavone, Patrick McDaniel, Chaowei Xiao
+  - ICLR 2026
+  - Keyword: RLHF, Alignment, Safety, LLM, Optimization
+
+- [Reward Model Routing in Alignment](https://openreview.net/pdf?id=i3OKIHSsHC)
+  - Xinle Wu, Yao Lu
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, Alignment, LLM
+
+- [CogFlow: Bridging Perception and Reasoning through Knowledge Internalization for Visual Mathematical Problem Solving](https://openreview.net/pdf?id=sZ0DsaRsd4)
+  - Shuhang Chen, Yunqiu Xu, Junjie Xie, Aojun Lu, Tao Feng, ZEYING HUANG, ZHANG NING, Yi Sun, Yi Yang, Hangjie Yuan
+  - ICLR 2026
+  - Keyword: Reward Model, Multimodal, Optimization
+
+- [All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning](https://openreview.net/pdf?id=sCL5mSTpKm)
+  - Gokul Swamy, Sanjiban Choudhury, Wen Sun, Steven Wu, Drew Bagnell
+  - ICLR 2026
+  - Keyword: PPO, Reward Model, Preference, Reinforcement Learning
+
+- [General Exploratory Bonus for Optimistic Exploration in RLHF](https://openreview.net/pdf?id=hh91yCiqgS)
+  - Wendi Li, Changdae Oh, Sharon Li
+  - ICLR 2026
+  - Keyword: RLHF, Alignment, Reinforcement Learning, Human Feedback
+
+- [RE-PO: Robust Enhanced Policy Optimization as a General Framework for LLM Alignment](https://openreview.net/pdf?id=jDKpOvTCM8)
+  - Xiaoyang Cao, Zelai Xu, Mo Guang, Kaiwen Long, Michiel A. Bakker, Yu Wang, Chao Yu
+  - ICLR 2026
+  - Keyword: DPO, RLHF, Preference, Alignment, LLM
+
+- [Learning Correlated Reward Models: Statistical Barriers and Opportunities](https://openreview.net/pdf?id=TbEyl6krsY)
+  - Yeshwanth Cherapanamjeri, Constantinos Costis Daskalakis, Gabriele Farina, Sobhan Mohammadpour
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, Reinforcement Learning, Human Feedback
+
+- [Verification and Co-Alignment via Heterogeneous Consistency for Preference-Aligned LLM Annotations](https://openreview.net/pdf?id=jugY302BAh)
+  - Cheng Chen, Haiyan Yin, Ivor Tsang
+  - ICLR 2026
+  - Keyword: RLHF, Preference, Alignment, LLM
+
+- [Disentangling Length Bias in Preference Learning via Response-Conditioned Modeling](https://openreview.net/pdf?id=hKxYESOzen)
+  - Jianfeng Cai, Jinhua Zhu, Ruopei Sun, Yue Wang, Li Li, Wengang Zhou, Houqiang Li
+  - ICLR 2026
+  - Keyword: DPO, RLHF, Reward Model, Preference, LLM
+
+- [Enforcing Axioms for AI Alignment under Loss-Based Rules](https://openreview.net/pdf?id=MpYSoTK65s)
+  - Alexandros Hollender, Sonja Kraiczy
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, Alignment, Reinforcement Learning
+
+- [OPPO: Accelerating PPO-based RLHF via Pipeline Overlap](https://openreview.net/pdf?id=31Mr6wLBeF)
+  - Kaizhuo Yan, YingJie Yu, Yifan Yu, Haizhong Zheng, Fan Lai
+  - ICLR 2026
+  - Keyword: PPO, RLHF, Reward Model, Preference, LLM
+
+- [QuRL: Rubrics As Judge For Open-Ended Question Answering](https://openreview.net/pdf?id=DrhWTuhtYq)
+  - Xiyu Wei, Qingwei Zong, Xiaoguang Li, Eugene J. Yu, Sujian Li
+  - ICLR 2026
+  - Keyword: LLM, Optimization, Reinforcement Learning, Human Feedback
+
+- [Translate Policy to Language: Flow Matching Generated Rewards for LLM Explanations](https://openreview.net/pdf?id=zmZsWCGzUV)
+  - Xinyi Yang, Liang Zeng, Heng Dong, Chao Yu, Xiaoran Wu, Huazhong Yang, Yu Wang, Milind Tambe, Tonghan Wang
+  - ICLR 2026
+  - Keyword: RLHF, LLM, Reinforcement Learning
+
+- [Skywork-Reward-V2: Scaling Preference Data Curation via Human-AI Synergy](https://openreview.net/pdf?id=ofgxkMLqic)
+  - Chris Yuhao Liu, Liang Zeng, Yuzhen Xiao, Jujie He, Jiacai Liu, Chaojie Wang, Rui Yan, Wei Shen, Fuxiang Zhang, Jiacheng Xu, Yang Liu
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, Alignment, Safety
+
+- [Stackelberg Learning from Human Feedback: Preference Optimization as a Sequential Game](https://openreview.net/pdf?id=vc9Tj11LNE)
+  - Barna Pásztor, Thomas Kleine Buening, Andreas Krause
+  - ICLR 2026
+  - Keyword: RLHF, Preference, Alignment, Nash, Optimization
+
+- [Swap-guided Preference Learning for Personalized Reinforcement Learning from Human Feedback](https://openreview.net/pdf?id=nc28mSbyVG)
+  - Gihoon Kim, Euntai Kim
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, Reinforcement Learning, Human Feedback
+
+- [Beyond Binary Preferences: A Principled Framework for Reward Modeling with Ordinal Feedback](https://openreview.net/pdf?id=mteZOi0xyu)
+  - Amirhossein Afsharrad, Ruida Zhou, Luca Viano, Sanjay Lall, Mohammad Ghavamzadeh
+  - ICLR 2026
+  - Keyword: Reward Model, Preference, Safety, Human Feedback
+
+- [RLBFF: Binary Flexible Feedback to bridge between Human Feedback & Verifiable Rewards](https://openreview.net/pdf?id=P3R3S6S5Km)
+  - Zhilin Wang, Jiaqi Zeng, Olivier Delalleau, Ellie Evans, Daniel Egert, Hoo-Chang Shin, Felipe Soares, Yi Dong, Oleksii Kuchaiev
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, Alignment, LLM
+
+- [Reward Models Inherit Value Biases from Pretraining](https://openreview.net/pdf?id=dT399j1Azv)
+  - Brian Christian, Jessica A F Thompson, Elle, Vincent Adam, Hannah Rose Kirk, Christopher Summerfield, Tsvetomira Dumbalska
+  - ICLR 2026
+  - Keyword: Reward Model, Preference, Alignment, Safety, LLM
+
+- [Semantic-aware Wasserstein Policy Regularization for Large Language Model Alignment](https://openreview.net/pdf?id=sUac3QDbAs)
+  - Byeonghu Na, Hyungho Na, Yeongmin Kim, Suhyeon Jo, HeeSun Bae, Mina Kang, Il-chul Moon
+  - ICLR 2026
+  - Keyword: RLHF, Preference, Alignment, LLM, Reinforcement Learning
+
+- [RewardBench 2: Advancing Reward Model Evaluation](https://openreview.net/pdf?id=fb0G86Dewb)
+  - Saumya Malik, Valentina Pyatkin, Sander Land, Jacob Morrison, Noah A. Smith, Hannaneh Hajishirzi, Nathan Lambert
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, Alignment, Safety
+
+- [Causally Robust Reward Learning from Reason-Augmented Preference Feedback](https://openreview.net/pdf?id=wviOOX5JVn)
+  - Minjune Hwang, Yigit Korkmaz, Daniel Seita, Erdem Biyik
+  - ICLR 2026
+  - Keyword: Reward Model, Preference
+
+- [COMAL: A Convergent Meta-Algorithm for Aligning LLMs with General Preferences](https://openreview.net/pdf?id=OsrE5DJ9Fu)
+  - Yixin Liu, Argyris Oikonomou, Weiqiang Zheng, Yang Cai, Arman Cohan
+  - ICLR 2026
+  - Keyword: RLHF, Preference, Alignment, Nash, Optimization
+
+- [Displacement-Resistant Extensions of DPO with Nonconvex $f$-Divergences](https://openreview.net/pdf?id=rTte3iUsXV)
+  - Idan Pipano, Shoham Sabach, Kavosh Asadi, Mohammad Ghavamzadeh
+  - ICLR 2026
+  - Keyword: DPO, RLHF
+
+- [Keep the Best, Forget the Rest: Reliable Alignment with Order-Aware Preference Optimization](https://openreview.net/pdf?id=LrHfYPFTtg)
+  - Jiahui Zhu, Yuanjie Shi, Xiyue Peng, Xin Liu, Yan Yan, Honghao Wei
+  - ICLR 2026
+  - Keyword: DPO, PPO, RLHF, Preference, Alignment
+
+- [Cultivating Pluralism In Algorithmic Monoculture: The Community Alignment Dataset](https://openreview.net/pdf?id=4NtoAVqfhA)
+  - Lily H Zhang, Smitha Milli, Karen Long Jusko, Jonathan Smith, Brandon Amos, Wassim Bouaziz, Manon Revel, Jack Kussman, Yasha Sheynin, Lisa Titus, Bhaktipriya Radharapu, Jane Yu, Vidya Sarma, Kristopher Rose, Maximilian Nickel
+  - ICLR 2026
+  - Keyword: Preference, Alignment, LLM
+
+- [Fair Reinforcement Learning for Just AI](https://openreview.net/pdf?id=XNNDODynCl)
+  - Ezgi Korkmaz
+  - ICLR 2026
+  - Keyword: Preference, Alignment, Optimization, Reinforcement Learning, Human Feedback
+
+- [Robust Reward Modeling via Causal Rubrics](https://openreview.net/pdf?id=oP99JQiDYp)
+  - Pragya Srivastava, Harman Singh, Rahul Madhavan, Gandharv Patil, Sravanti Addepalli, Arun Suggala, Rengarajan Aravamudhan, Soumya Sharma, Anirban Laha, Aravindan Raghuveer, Karthikeyan Shanmugam, Doina Precup
+  - ICLR 2026
+  - Keyword: DPO, Reward Model, Alignment, Safety, LLM
+
+- [Escaping Policy Contraction: Contraction-Aware PPO (CaPPO) for Stable Language Model Fine-Tuning](https://openreview.net/pdf?id=vDlkJewkDu)
+  - Dun Yuan, Di Wu, Xue Liu
+  - ICLR 2026
+  - Keyword: PPO, RLHF, Alignment, Optimization, Reinforcement Learning
+
+- [Beyond Pairwise: Empowering LLM Alignment With (Ranked) Choice Modeling](https://openreview.net/pdf?id=fCaxd9EKzl)
+  - Yuxuan Tang, Yifan Feng
+  - ICLR 2026
+  - Keyword: DPO, PPO, Preference, Alignment, LLM
+
+- [Learning Ordinal Probabilistic Reward from Preferences](https://openreview.net/pdf?id=0Vf5trUAVF)
+  - Longze Chen, Lu Wang, Renke Shan, Ze Gong, Run Luo, Jiaming Li, Jing Luo, Qiyao Wang, Min Yang
+  - ICLR 2026
+  - Keyword: Reward Model, LLM
+
+- [Eliminating Inductive Bias in Reward Models with Information-Theoretic Guidance](https://openreview.net/pdf?id=57YfUhcYXd)
+  - Zhuo Li, Pengyu Cheng, Zhechao Yu, FeifeiTong, Anningzhe Gao, Tsung-Hui Chang, Xiang Wan, erchao.zec, xiaoxi jiang, guanjunjiang
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, LLM, Optimization
+
+- [Alignment-Weighted DPO:  A principled reasoning approach to improve safety alignment](https://openreview.net/pdf?id=OuMNJoKJBQ)
+  - Mengxuan Hu, Vivek Datla, Anoop Kumar, Zihan Guan, Sheng Li, Alfy Samuel, Daben Liu
+  - ICLR 2026
+  - Keyword: DPO, RLHF, Preference, Alignment, Safety
+
+- [Evaluating and Improving Cultural Awareness of Reward Models for LLM Alignment](https://openreview.net/pdf?id=WhSzqsMhfZ)
+  - Hongbin Zhang, Kehai Chen, Xuefeng Bai, Yang Xiang, Min Zhang
+  - ICLR 2026
+  - Keyword: Reward Model, Preference, Alignment, LLM, Reinforcement Learning
+
+- [Balancing the Experts: Unlocking LoRA-MoE for GRPO via Mechanism-Aware Rewards](https://openreview.net/pdf?id=rhD7ZuFAjU)
+  - Changlian Ma, Zizheng Huang, Xiangyu Zeng, Yi Wang, Cheng Liang, Kun Tian, Xinhai Zhao, Limin Wang
+  - ICLR 2026
+  - Keyword: Alignment, Multimodal, Optimization, Reinforcement Learning
+
+- [Bradley-Terry and Multi-Objective Reward Modeling Are Complementary](https://openreview.net/pdf?id=3QHKJcwnpb)
+  - Zhiwei Zhang, Hui Liu, Xiaomin Li, Zhenwei Dai, Jingying Zeng, Fali Wang, Minhua Lin, Ramraj Chandradevan, Linlin Wu, Zhen Li, Chen Luo, Zongyu Wu, Xianfeng Tang, Qi He, Suhang Wang
+  - ICLR 2026
+  - Keyword: RLHF, Reward Model, Preference, LLM, Reinforcement Learning
+
+- [Beyond RLHF and NLHF: Population-Proportional Alignment under an Axiomatic Framework](https://openreview.net/pdf?id=Egmvi2RWnj)
+  - Kihyun Kim, Jiawei Zhang, Asuman E. Ozdaglar, Pablo A. Parrilo
+  - ICLR 2026
+  - Keyword: Preference, Alignment
+
+- [ActiveDPO: Active Direct Preference Optimization for Sample-Efficient Alignment](https://openreview.net/pdf?id=RD4XgyVyGh)
+  - Xiaoqiang Lin, Arun Verma, Zhongxiang Dai, Daniela Rus, See-Kiong Ng, Bryan Kian Hsiang Low
+  - ICLR 2026
+  - Keyword: DPO, Reward Model, Preference, Alignment, LLM
+
+- [BranchGRPO: Stable and Efficient GRPO with Structured Branching in Diffusion Models](https://openreview.net/pdf?id=T2nP2IQasd)
+  - Yuming Li, Yikai Wang, Yuying zhu, Zhongyu Zhao, Ming Lu, Qi She, Shanghang Zhang
+  - ICLR 2026
+  - Keyword: Preference, Alignment, Optimization
+
+- [Safety Game: Inference-Time Alignment of Black-Box LLMs via Constrained Optimization](https://openreview.net/forum?id=7Nn3SKS6yL)
+  - Tuan Nguyen, Long Tran-Thanh
+  - ICML 2026
+  - Keyword: Alignment, Safety, LLM, Reinforcement Learning, Human Feedback
+
+- [Threshold-Guided Optimization for Visual Generative Models](https://openreview.net/forum?id=B258ihKAk9)
+  - Jinbin Bai, Yu Lei, Qingyu Shi, Aosong Feng, Yi Xin, Zhuoran Zhao, Fei Shen, Kaidong Yu, Xiangtai Li
+  - ICML 2026
+  - Keyword: Reward Model, Preference, Alignment, Diffusion, Optimization
+
+- [Noise-corrected GRPO: From Noisy Rewards to Unbiased Gradients](https://openreview.net/forum?id=mnU8odBWYE)
+  - Omar Elmansouri, Fathinah Izzati, Mohamed El Amine Seddik, Salem Lahlou
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, LLM, Optimization, Reinforcement Learning
+
+- [Controllable and explainable personality sliders for LLMs at inference time](https://openreview.net/forum?id=6TuaAw1DkF)
+  - Florian Hoppe, David Khachaturov, Robert Mullins, Mark Huasong Meng
+  - ICML 2026
+  - Keyword: PPO, RLHF, Alignment, LLM, Optimization
+
+- [PS-PPO : Prefix-Sampling PPO for Critic-Free RLHF](https://openreview.net/forum?id=flDa73nyVx)
+  - Doo Hwan Hwang, Kee-Eung Kim
+  - ICML 2026
+  - Keyword: PPO, RLHF, Optimization, Reinforcement Learning, Human Feedback
+
+- [Unbiased Reward Modeling from Implicit Preference](https://openreview.net/forum?id=membbcuXeR)
+  - Eric Wang, Haocheng Yang, Licheng Pan, Lei Shen, Xiaoxi Li, Yinuo Wang, Zhichao Chen, Yuan Lu, Haoxuan Li, Zhouchen Lin
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Preference, Reinforcement Learning, Human Feedback
+
+- [How RLHF Amplifies Sycophancy](https://openreview.net/forum?id=XN4pWKtA5h)
+  - Itai Shapira, Gerdus Benade, Ariel Procaccia
+  - ICML 2026
+  - Keyword: Preference, Alignment, Optimization, Human Feedback
+
+- [Real-Time Aligned Reward Model beyond Semantics](https://openreview.net/forum?id=wz2zK4l3YJ)
+  - Zixuan Huang, Xin Xia, Yuxi Ren, Jianbin Zheng, Xuefeng Xiao, Hongyan Xie, Huaqiu Li, Songshi Liang, Zhongxiang Dai, Fuzhen Zhuang, Jianxin Li, Yikun Ban, deqing wang
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Preference, Alignment, LLM
+
+- [Chasing Moving Targets with Online Self-Play Reinforcement Learning for Safer Language Models](https://openreview.net/forum?id=l8PbMSZs2G)
+  - Mickel Liu, Liwei Jiang, Yancheng Liang, Simon Du, Yejin Choi, Tim Althoff, Natasha Jaques
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Alignment, Safety, LLM
+
+- [B-Spar: Bayesian Sparse-Reward Modeling for RL-based Image Editing](https://openreview.net/forum?id=aoUqzNEKpA)
+  - shusong xu, Peiye Liu, Yongbin Liu, Bangjie Yin, Zhaomang Sun, Zhenyu Chen, Tianyi Zheng, Peng-Tao Jiang, Jian Zhang, Yuzhao Wang, Jinwei Chen, Zhen Gu, Bo Li
+  - ICML 2026
+  - Keyword: Reward Model, Alignment, Multimodal, LLM, Optimization
+
+- [Calibrated Preference Learning: The Case of Label Ranking](https://openreview.net/forum?id=STcIzNrUBB)
+  - Santo Thies, Viktor Bengs, Timo Kaufmann, Sebastian Vollmer, Eyke Hüllermeier
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Alignment
+
+- [Understanding the Performance Gap in Preference Learning: A Dichotomy of RLHF and DPO](https://openreview.net/forum?id=sg94PRd3kD)
+  - Ruizhe Shi, Minhak Song, Runlong Zhou, Zihan Zhang, Maryam Fazel, Simon Du
+  - ICML 2026
+  - Keyword: DPO, RLHF, Reward Model, Preference, Optimization
+
+- [DARC: Disagreement-Aware Alignment via Risk-Constrained Decoding](https://openreview.net/forum?id=GgN0wlHcdI)
+  - mingxi Zou, Jiaxiang Chen, Junfan Li, Langzhang Liang, Qifan Wang, Xu Yinghui, Zenglin Xu
+  - ICML 2026
+  - Keyword: DPO, RLHF, Preference, Alignment, Optimization
+
+- [The Personality Illusion: Revealing Dissociation Between Self-Reports & Behavior in LLMs](https://openreview.net/forum?id=6OMZEKarO7)
+  - Pengrui Han, Rafal Kocielnik, Peiyang Song, Ramit Debnath, Dean Mobbs, Anima Anandkumar, R. Michael Alvarez
+  - ICML 2026
+  - Keyword: RLHF, Alignment, LLM
+
+- [Distributionally Robust Reinforcement Learning with Human Feedback](https://openreview.net/forum?id=6GeYRoYKWP)
+  - Debmalya Mandal, Paulius Sasnauskas, Goran Radanovic
+  - ICML 2026
+  - Keyword: DPO, RLHF, Reward Model, Preference, LLM
+
+- [Automatically Finding Reward Model Biases](https://openreview.net/forum?id=Xy4ClJMjIU)
+  - Atticus Wang, Iván Arcuschin, Arthur Conmy
+  - ICML 2026
+  - Keyword: Reward Model, LLM, Reinforcement Learning, Human Feedback
+
+- [Tackling Length Inflation Without Trade-offs: Group Relative Reward Rescaling for Reinforcement Learning](https://openreview.net/forum?id=quqoVYpzX3)
+  - Zichao Li, Jie Lou, Fangchen Dong, Zhiyuan Fan, Mengjie Ren, Hongyu Lin, Xianpei Han, Debing Zhang, Le Sun, Yaojie Lu, XingYu
+  - ICML 2026
+  - Keyword: RLHF, LLM, Optimization, Reinforcement Learning
+
+- [Convex Optimization for Alignment and Preference Learning on a Single GPU](https://openreview.net/forum?id=P4eXtzKPrl)
+  - Miria Feng, Mert Pilanci
+  - ICML 2026
+  - Keyword: DPO, RLHF, Preference, Alignment, LLM
+
+- [MMKU-Bench: A Multimodal Update Benchmark for Diverse Visual Knowledge](https://openreview.net/forum?id=WYHmRRGcL1)
+  - Baochen Fu, Yuntao Du, Cheng Chang, Baihao Jin, Wenzhi Deng, Muhao Xu, Hongmei Yan, Weiye Song, Yi Wan
+  - ICML 2026
+  - Keyword: RLHF, Multimodal, Reinforcement Learning, Human Feedback
+
+- [Pushing Forward Pareto Frontiers of Proactive Agents with Behavioral Agentic Optimization](https://openreview.net/forum?id=pckR7Y6V1j)
+  - Yihang Yao, Zhepeng Cen, Haohong Lin, Shiqi Liu, Zuxin Liu, Jiacheng Zhu, Zhang-Wei Hong, Laixi Shi, Ding Zhao
+  - ICML 2026
+  - Keyword: LLM, Reinforcement Learning, Human Feedback
+
+- [Unbiased Alignment for Large Language Models with Noisy Preferences](https://openreview.net/forum?id=eMQsdioK8z)
+  - Jialiang Wang, Xianming Liu, Xiong Zhou, Hui Liu, Haoliang Li
+  - ICML 2026
+  - Keyword: DPO, Reward Model, Preference, Alignment, Optimization
+
+- [Unbiased Principles, Robust Rewards](https://openreview.net/forum?id=VZDlkXuIQc)
+  - Qingnan Ren, Zhen Fang, Shiting Huang, Yu Zeng, Lin Chen, Zehui Chen, Feng Zhao
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Reinforcement Learning, Human Feedback
+
+- [The Secret Engine Behind RLHF: It's Contarstive Learning All Along](https://openreview.net/forum?id=MJ25gbGhPu)
+  - Xufei Lv, Kehai Chen, Haoyuan Sun, Xuefeng Bai, Min zhang, Houde Liu
+  - ICML 2026
+  - Keyword: DPO, RLHF, Preference, Alignment, LLM
+
+- [When Distance Distracts: Representation Distance Bias in BT-Loss for Reward Models](https://openreview.net/forum?id=MBk6Pur6RX)
+  - Tong Xie, Ching-Yuan Bai, Yuanhao Ban, Yunqi Hong, Haoyu Li, Cho-Jui Hsieh
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Alignment, LLM
+
+- [Multi-Objective Preference Optimization: Improving Human Alignment of Generative Models](https://openreview.net/forum?id=AFqHVyanzY)
+  - Akhil Agnihotri, Rahul Jain, Deepak Ramachandran, Zheng Wen
+  - ICML 2026
+  - Keyword: DPO, RLHF, Preference, Alignment, Safety
+
+- [TUR-DPO: Topology- and Uncertainty-Aware Direct Preference Optimization](https://openreview.net/forum?id=YDztzMJynP)
+  - Abdulhady abas, Fatemeh Daneshfar, Seyedali Mirjalili, Mourad Oussalah
+  - ICML 2026
+  - Keyword: DPO, PPO, RLHF, Preference, Multimodal
+
+- [Asymptotic Universal Alignment: A New Alignment Framework via Test-Time Scaling](https://openreview.net/forum?id=2RIk96qJcc)
+  - Yang Cai, Weiqiang Zheng
+  - ICML 2026
+  - Keyword: PPO, Preference, Alignment, LLM, Nash
+
+- [Reward Modeling from Natural Language Human Feedback](https://openreview.net/forum?id=nd0hT1eyEo)
+  - Zongqi Wang, Rui Wang, Yuchuan Wu, Yiyao Yu, Pinyi Zhang, Shaoning Sun, Yujiu Yang, Yongbin Li
+  - ICML 2026
+  - Keyword: Reward Model, Preference, Reinforcement Learning, Human Feedback
+
+- [Efficient Preference Poisoning Attack on Offline RLHF](https://openreview.net/forum?id=32XNOcwH1z)
+  - Chenye Yang, Weiyu Xu, Lifeng Lai
+  - ICML 2026
+  - Keyword: DPO, RLHF, Preference, Optimization, Reinforcement Learning
+
+- [Position: Agentic Safety is an Epistemic Property, Not a Behavioral One](https://openreview.net/forum?id=30mapdhNKH)
+  - Charles Wang, Keir Dorchen, Peter Jin
+  - ICML 2026
+  - Keyword: RLHF, Preference, Alignment, Safety, Optimization
+
+- [Position: Large Language Models Should Learn Personalized Rather Than Aggregated Human Preferences](https://openreview.net/forum?id=kWWgmAXwjG)
+  - Cristina Garbacea
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Preference, Safety, Reinforcement Learning
+
+- [Transitivity Meets Cyclicity: Explicit Preference Decomposition for Dynamic Large Language Model Alignment](https://openreview.net/forum?id=7H9HRTWady)
+  - Yucong Huang, Xiucheng Li, Kaiqi Zhao, Jing Li
+  - ICML 2026
+  - Keyword: PPO, RLHF, Preference, Alignment, Nash
+
+- [Factored Causal Representation Learning for Robust Reward Modeling in RLHF](https://openreview.net/forum?id=CwNItJ07ew)
+  - Yupei Yang, Lin Yang, Wanxi Deng, Lin Qu, Fan Feng, Biwei Huang, Shikui Tu, Lei Xu
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Preference, LLM, Reinforcement Learning
+
+- [Federated Variational Preference Alignment with Gumbel-Softmax Prior for Personalized User Preferences](https://openreview.net/forum?id=duzvT0nDgZ)
+  - Jabin Koo, Hoyoung Kim, Minwoo Jang, Jungseul Ok
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Preference, Alignment, LLM
+
+- [Online Compatible Reward Identification from Preference Feedback](https://openreview.net/forum?id=Fd1PINCgs7)
+  - Simone Drago, Marco Mussi, Alberto Maria Metelli
+  - ICML 2026
+  - Keyword: Preference, Safety, Reinforcement Learning, Human Feedback
+
+- [$f$-Divergence Regularized RLHF: Two Tales of Sampling and Unified Analyses](https://openreview.net/forum?id=XrtiZYwcU4)
+  - Di Wu, Chengshuai Shi, Jing Yang, Cong Shen
+  - ICML 2026
+  - Keyword: RLHF, Reinforcement Learning, Human Feedback
+
+- [Alignment Tampering: How Reinforcement Learning from Human Feedback Is Exploited to Optimize Misaligned Biases](https://openreview.net/forum?id=qNsrhcCe4y)
+  - Dongyoon Hahm, Dylan Hadfield-Menell, Kimin Lee
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Preference, Alignment, LLM
+
+- [IRPM: Intergroup Relative Preference Modeling for Pointwise Generative Reward Models](https://openreview.net/forum?id=JuiHYauZNk)
+  - Haonan Song, Qingchen Xie, Huan Zhu, Feng Xiao, Luxi Xing, Liu Kang, Fuzhen Li, Zhiyong Zheng, Feng Jiang, Ziheng Li, Kun Yan, Qingyi Si, Yanghua Xiao, Hongcheng Guo, Fan Yang
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Preference, Reinforcement Learning, Human Feedback
+
+- [Implicit Preference Alignment  for Human Image Animation](https://openreview.net/forum?id=SorLoUARMp)
+  - Yuanzhi Wang, Xuhua Ren, Jiaxiang Cheng, bing ma, Kai Yu, Tianxiang Zheng, Qinglin Lu, Zhen Cui
+  - ICML 2026
+  - Keyword: Preference, Alignment, Optimization, Reinforcement Learning, Human Feedback
+
+- [Multilingual Safety Alignment Via Sparse Weight Editing](https://openreview.net/forum?id=tlPhEl24fM)
+  - Jiaming Liang, Zhaoxin Wang, Handing Wang
+  - ICML 2026
+  - Keyword: RLHF, Alignment, Safety, LLM, Reinforcement Learning
+
+- [Gradient Regularization Prevents Reward Hacking in Reinforcement Learning from Human Feedback and Verifiable Rewards](https://openreview.net/forum?id=T67db38qhr)
+  - Johannes Ackermann, Michael Noukhovitch, Takashi Ishida, Masashi Sugiyama
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, LLM, Reinforcement Learning, Human Feedback
+
+- [Graph-Preference Learning: Debiasing Network-Sampled Human Feedback for Target Welfare Estimation](https://openreview.net/forum?id=DiNZ5ccCo6)
+  - Guangrui Fan, DanDan Liu, AZNUL SABRI, Pan Lihu
+  - ICML 2026
+  - Keyword: DPO, RLHF, Reward Model, Preference
+
+- [COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space](https://openreview.net/forum?id=LMBt26pQj1)
+  - Yao Luan, Ni Mu, Hanfei Ge, Yiqin Yang, Bo XU, Qing-Shan Jia
+  - ICML 2026
+  - Keyword: Human Feedback
+
+- [Optimal Transport for Reward Modeling from Noisy Feedback](https://openreview.net/forum?id=InoePQ7HNI)
+  - Eric Wang, Licheng Pan, Haocheng Yang, Yunsheng Lu, Yongqi Tong, Yinuo Wang, Shijian Wang, Zhixuan Chu, Lei Shen, Haoxuan Li, Yuan Lu
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Preference, Reinforcement Learning, Human Feedback
+
+- [Reliability-Aware LLM Alignment from Inconsistent Human Feedback](https://openreview.net/forum?id=0LeyqHkrEG)
+  - Jingyi Huang, Ruohan Zong, Yujun Feng, Liran Ma, Lanyu Shang, Yang Zhang
+  - ICML 2026
+  - Keyword: DPO, RLHF, Preference, Alignment, LLM
+
+- [Position: We Need Large Language Models Optimized For Our Well-Being](https://openreview.net/forum?id=LCsPkh2Ins)
+  - Ashton Anderson, Harsh Kumar, Louis Tay, Karina Vold
+  - ICML 2026
+  - Keyword: RLHF, Preference, Optimization, Reinforcement Learning, Human Feedback
+
+- [Implicit Safety Alignment from Crowd Preferences](https://openreview.net/forum?id=kQZKqdlPQc)
+  - Qian Lin, Daniel S Brown
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Preference, Safety, Reinforcement Learning
+
+- [Contrastive Weak-to-Strong Generalization](https://openreview.net/forum?id=maOM1OWNZ6)
+  - Houcheng Jiang, Junfeng Fang, Jiaxin Wu, Tianyu Zhang, Chen Gao, Xiang Wang, Xiangnan He, Yang Deng
+  - ICML 2026
+  - Keyword: Reward Model, Alignment, LLM, Human Feedback
+
+- [Distortion of AI Alignment Revisited: RLHF is a Decent Utilitarian Aligner](https://openreview.net/forum?id=x4qXiDogRm)
+  - Kazusato Oko, Annie Ulichney, Nika Haghtalab, Han Bao
+  - ICML 2026
+  - Keyword: RLHF, Preference, Reinforcement Learning, Human Feedback
+
+- [Conversation for Non-verifiable Learning: Self-Evolving Large Language Models through Meta-Evaluation](https://openreview.net/forum?id=Wba6w3pzbj)
+  - Yuan Sui, Bryan Hooi
+  - ICML 2026
+  - Keyword: LLM, Optimization, Human Feedback
+
+- [Unifying Adversarial Robustness and Training Across Text Scoring Models](https://openreview.net/forum?id=u7kOAJ9uH7)
+  - Manveer Tamber, Hosna Oyarhoseini, Jimmy Lin
+  - ICML 2026
+  - Keyword: PPO, RLHF, Reward Model, LLM
+
+- [ActiveUltraFeedback: Efficient Preference Data Generation using Active Learning](https://openreview.net/forum?id=Ca0cQbhA0T)
+  - Davit Melikidze, Marian Schneider, Jessica Lam, Martin Wertich, Ido Hakimi, Barna Pasztor, Andreas Krause
+  - ICML 2026
+  - Keyword: RLHF, Preference, Alignment, LLM, Reinforcement Learning
+
+- [Layer-wise Gradient Disentanglement: Decoupling Semantics and Preferences in Direct Preference Optimization](https://openreview.net/forum?id=j8lJiUPyL7)
+  - Mengyang Li, Shuang Liu, Zhong Zhang
+  - ICML 2026
+  - Keyword: DPO, RLHF, Preference, Optimization
+
+- [The Sign Estimator: Preference Modeling for LLM Alignment under Heterogeneity](https://openreview.net/forum?id=SyTeWTEex3)
+  - Aymane El Gadarri, Ali Aouad, Vivek Farias
+  - ICML 2026
+  - Keyword: RLHF, Reward Model, Preference, Alignment, LLM
+
+- [Leveraging Machine Unlearning for Cost-Efficient Preference Alignment](https://openreview.net/forum?id=FhCu8IlO2e)
+  - XiaoHua Feng, Yuyuan Li, HuWei Ji, Li Zhang, Jiaming Zhang, Tianyu Du, Chaochao Chen
+  - ICML 2026
+  - Keyword: Preference, Alignment, LLM, Optimization, Reinforcement Learning
+
+- [Regularization in the Axiomatic Approach to Learning from Human Preferences](https://openreview.net/forum?id=9ydYaIe1Qj)
+  - Ezgi Korkmaz
+  - ICML 2026
+  - Keyword: RLHF, Preference, Reinforcement Learning, Human Feedback
+
+- [DPO Unchained: Your Training Algorithm is Secretly Disentangled in Human Choice Theory (and Its Loss' Convexity is Dispensable)](https://openreview.net/forum?id=j4c3i3a5kH)
+  - Wenxuan Zhou, Shujian Zhang, brice magdalou, John Lambert, Ehsan Amid, Richard Nock, Andrew Hard
+  - ICML 2026
+  - Keyword: DPO, PPO, RLHF, Reward Model, Preference
+
+- [Conditional Equivalence of DPO and RLHF: Assumptions, Failure Modes, and Provable Alignment](https://openreview.net/forum?id=7UEBX1KU1y)
+  - Yonggang Zhang, Zhiqin Yang, Wei Xue, Dong Fang, Bo Han, Yike Guo
+  - ICML 2026
+  - Keyword: DPO, RLHF, Preference, Alignment, Optimization
+
+- [A Regret Minimization Framework on Preference Learning  in Large Language Models](https://openreview.net/forum?id=genVnYBAV7)
+  - Suhwan Kim, Taehyun Cho, Youngsoo Jang, Geon-Hyeong Kim, Yu Jin Kim, Moontae Lee, Jungwoo Lee
+  - ICML 2026
+  - Keyword: RLHF, Preference, Optimization, Reinforcement Learning, Human Feedback
+
+- [Position: Measuring Human Preferences in RLHF is a Social Science Problem](https://openreview.net/forum?id=5l1pca4KhM)
+  - Bijean Ghafouri, Eun Cheol Choi, Priyanka Dey, Emilio Ferrara
+  - ICML 2026
+  - Keyword: RLHF, Preference, Alignment
+
+- [Mitigating Reward Hacking in RLHF via Bayesian Non-negative Reward Modeling](https://openreview.net/forum?id=DfhMMHXDuu)
+  - Zhibin Duan, Guowei Rong, Zhuo Li, Bo Chen, Mingyuan Zhou, Dandan Guo
+  - ICML 2026
+  - Keyword: Reward Model, Preference, LLM, Optimization, Reinforcement Learning
+  - ICML 2026
 ### 2025
 
 - [Position: The Complexity of Perfect AI Alignment -- Formalizing the RLHF Trilemma](https://arxiv.org/abs/2511.19504)
